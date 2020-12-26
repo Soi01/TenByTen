@@ -1,0 +1,406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9fbb13fc1b74404fbd4cf41b8dd2fba, type: 3}
+  m_Name: DataTable
+  m_EditorClassIdentifier: 
+  tenByTenDataList:
+  - pivotExam:
+      row: 2
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    examList:
+    - row: 2
+      col: 2
+  - pivotExam:
+      row: 1
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    examList:
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+  - pivotExam:
+      row: 1
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 2
+      col: 0
+    examList:
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+  - pivotExam:
+      row: 0
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 2
+      col: 0
+    - row: 3
+      col: 0
+    examList:
+    - row: 0
+      col: 2
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+  - pivotExam:
+      row: 0
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 2
+      col: 0
+    - row: 3
+      col: 0
+    - row: 4
+      col: 0
+    examList:
+    - row: 0
+      col: 2
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+    - row: 4
+      col: 2
+  - pivotExam:
+      row: 2
+      col: 1
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    examList:
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+  - pivotExam:
+      row: 2
+      col: 1
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    - row: 0
+      col: 2
+    examList:
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+    - row: 2
+      col: 3
+  - pivotExam:
+      row: 2
+      col: 0
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    - row: 0
+      col: 2
+    - row: 0
+      col: 3
+    examList:
+    - row: 2
+      col: 0
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+    - row: 2
+      col: 3
+  - pivotExam:
+      row: 2
+      col: 0
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    - row: 0
+      col: 2
+    - row: 0
+      col: 3
+    - row: 0
+      col: 4
+    examList:
+    - row: 2
+      col: 0
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+    - row: 2
+      col: 3
+    - row: 2
+      col: 4
+  - pivotExam:
+      row: 2
+      col: 1
+    checkList:
+    - row: 0
+      col: 0
+    - row: -1
+      col: 1
+    - row: 0
+      col: 1
+    examList:
+    - row: 2
+      col: 1
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+  - pivotExam:
+      row: 1
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 1
+      col: 1
+    examList:
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    - row: 2
+      col: 3
+  - pivotExam:
+      row: 2
+      col: 1
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    - row: 1
+      col: 1
+    examList:
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+  - pivotExam:
+      row: 2
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 0
+      col: 1
+    examList:
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+    - row: 2
+      col: 3
+  - pivotExam:
+      row: 2
+      col: 0
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    - row: -2
+      col: 2
+    - row: -1
+      col: 2
+    - row: 0
+      col: 2
+    examList:
+    - row: 2
+      col: 0
+    - row: 2
+      col: 1
+    - row: 0
+      col: 2
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+  - pivotExam:
+      row: 0
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 2
+      col: 0
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+    examList:
+    - row: 0
+      col: 2
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    - row: 2
+      col: 3
+    - row: 2
+      col: 4
+  - pivotExam:
+      row: 2
+      col: 0
+    checkList:
+    - row: 0
+      col: 0
+    - row: 0
+      col: 1
+    - row: 0
+      col: 2
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    examList:
+    - row: 2
+      col: 0
+    - row: 2
+      col: 1
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+    - row: 4
+      col: 2
+  - pivotExam:
+      row: 2
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 2
+      col: 0
+    - row: 0
+      col: 1
+    - row: 0
+      col: 2
+    examList:
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+    - row: 4
+      col: 2
+    - row: 2
+      col: 3
+    - row: 2
+      col: 4
+  - pivotExam:
+      row: 2
+      col: 2
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 0
+      col: 1
+    - row: 1
+      col: 1
+    examList:
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+    - row: 2
+      col: 3
+    - row: 3
+      col: 3
+  - pivotExam:
+      row: 1
+      col: 1
+    checkList:
+    - row: 0
+      col: 0
+    - row: 1
+      col: 0
+    - row: 2
+      col: 0
+    - row: 0
+      col: 1
+    - row: 1
+      col: 1
+    - row: 2
+      col: 1
+    - row: 0
+      col: 2
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    examList:
+    - row: 1
+      col: 1
+    - row: 2
+      col: 1
+    - row: 3
+      col: 1
+    - row: 1
+      col: 2
+    - row: 2
+      col: 2
+    - row: 3
+      col: 2
+    - row: 1
+      col: 3
+    - row: 2
+      col: 3
+    - row: 3
+      col: 3
